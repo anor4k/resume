@@ -1,0 +1,115 @@
+/* resume stylesheet */
+/* colors: https://coolors.co/f7f0f5-d496a7-decbb7-2d3142-8f857d */
+body {
+    font-family: Avenir, Helvetica, sans-serif;
+    font-size: 11pt;
+    margin: 0;
+    /* background-color: whitesmoke; */
+    background-color: #2d3142;
+    /* color: #07070a; */
+    color: whitesmoke;
+    height: 100%;
+    line-height: 16pt;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #d496a7;
+    color: #07070a;
+    width: 220px;
+    height: 100%;
+    text-align: left;
+}
+
+header * {
+    margin: 25px;
+    line-height: 20pt;
+}
+
+ul {
+    font-size: 14pt;
+    padding: 0;
+    list-style: none;
+    text-align: inherit;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+}
+
+.profilePicture img {
+    max-width: 170px;
+    height: auto;
+    margin: 0;
+    border-radius: 30%;
+}
+.headerContainer {
+    background-color: #275dad;
+    /* background-color: #d496a7; */
+    width: 100%;
+}
+
+.headerName {
+    font-size: 20pt;
+    text-align: left;
+    font-weight: 500;
+}
+
+.headerName,
+.headerInfo {
+    /* color: whitesmoke; */
+    color: #2d3142;
+}
+
+.sectionSmallColumn,
+.sectionTitle {
+    color: #275dad;
+    /* color: #d496a7; */
+}
+
+.sectionTitle {
+    font-size: 14pt;
+    width: 100%;
+    border-bottom: #275dad 1pt solid;
+    /* border-bottom: #d496a7 1pt solid; */
+}
+
+.sectionContent {
+    margin: 14pt 0;
+    display: flex;
+}
+
+.sectionMainColumn,
+.sectionDualColumn {
+    flex: 5;
+    align-self: flex-start;
+    padding: 0 10pt;
+}
+
+.sectionDualColumn {
+    flex: 2.5;
+}
+
+.sectionSmallColumn {
+    flex: 1;
+    align-self: flex-start;
+    padding: 0;
+}
+
+.sectionYears {
+    font-style: italic;
+}
+
+.sectionCompany {
+    font-weight: 600;
+}
+
+.sectionMainColumn p {
+    line-height: 20pt;
+    margin: 0;
+}
