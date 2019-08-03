@@ -89,10 +89,7 @@ a {
     flex: 5;
     align-self: flex-start;
     padding: 0 10pt;
-}
-
-.sectionDualColumn {
-    flex: 2.5;
+    line-height: 20pt;
 }
 
 .sectionSmallColumn {
@@ -107,9 +104,4 @@ a {
 
 .sectionCompany {
     font-weight: 600;
-}
-
-.sectionMainColumn p {
-    line-height: 20pt;
-    margin: 0;
 }
