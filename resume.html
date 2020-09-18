@@ -1,113 +1,127 @@
 <html>
 
 <head>
-    <title>Noel Viscome Eliezer - Currículo</title>
+    <title>Noel Viscome Eliezer - Resume</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" type="text/css" href="fonts.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/iosevka-sparkle.css" />
     <link rel="stylesheet" type="text/css" href="resume.css" />
 </head>
 
 <body>
-    <!-- Cabeçalho -->
-    <div class="headerContainer">
-        <div class="header">
-            <div class="headerName">Noel Viscome Eliezer</div>
-            <ul class="headerInfo">
-                <li><a href="https://anorak.dev">anorak.dev</a></li>
-                <li><a href="https://github.com/anor4k">github.com/anor4k</a></li>
-                <li><a href="mailto:noel@anorak.dev">noel@anorak.dev</a></li>
-                <li><a href="https://wa.me/+5516981268981">16 98126-8981</a></li>
+    <div class="header">
+        <span class="header-name">Noel Viscome Eliezer</span>
+    </div>
+    <div class="sidebar">
+        <div class="sidebar-section">
+            <h1>Education</h1>
+            <div class="section-content">
+                <h2>University of São Paulo</h2>
+                <p><l>2019 – 2022</l> <b>Business Management</b> (ongoing)</p>
+                <p><l>2016 – 2018</l> <b>Computer Engineering</b> (unfinished)</p>
+            </div>
+        </div>
+        <div class="sidebar-section">
+            <h1>Skills</h1>
+            <ul>
+                <li>Data mining, cleaning, visualization, engineering and analysis with <b>Python</b> using
+                    <b>numpy</b>, <b>pandas</b>, <b>plotly</b> and other libraries.</li>
+                <li>Machine Learning model development, training and testing with <b>PyTorch</b> and <b>SKLearn</b>.
+                </li>
+                <li>Deployment of models and software to <b>AWS</b> and <b>Google Cloud</b> on both managed and
+                    serverless infrastructures.</li>
+                <li>Experience with <b>git</b> and <b>GitHub</b> workflows for collaborative projects.</li>
+                <li>Experience with Linux and other UNIX environments, including scripting with <b>bash</b> and
+                    containerized deployment with <b>Docker</b>.</li>
+                <li>Advanced <b>Microsoft Excel</b> and <b>Google Sheets</b> skills.</li>
+                <li>Web development skills for front and back end, using <b>HTML5</b>, <b>CSS</b>, <b>JS</b>,
+                    <b>PHP</b> and <b>React</b>.</li>
+                <li>Project and team management with <b>Agile</b> and <b>SCRUM</b> experience.</li>
+                <li>People management, leadership and conflict resolution experience.</li>
+            </ul>
+            <h2>Languages</h2>
+            <ol>
+                <li>Portuguese (Native)</li>
+                <li>English (Cambridge Certificate of Proficiency)</li>
+                <li>Japanese (Beginner)</li>
+            </ol>
+            <h1>Contact Information</h1>
+            <ol class="contact-list">
+                <li><a href="https://wa.me/5516981268981">
+                        <img src="icons/1x/whatsapp.png" srcset="1x icons/1x/whatsapp.png, 2x icons/2x/whatsapp@2x.png"
+                            alt="WhatsApp">
+                        +55 16 98126-8981</a></li>
+                <li><a href="mailto:noel@anorak.dev">
+                        <img src="icons/1x/mail.png" srcset="1x icons/1x/mail.png, 2x icons/2x/mail@2x.png" alt="Email">
+                        noel@anorak.dev</a></li>
+                <li><a href="https://anorak.dev">
+                        <img src="icons/1x/home.png" srcset="1x icons/1x/home.png, 2x icons/2x/home@2x.png"
+                            alt="Home Page">
+                        anorak.dev</a></li>
+                <li><a href="https://github.com/anor4k">
+                        <img src="icons/1x/github.png" srcset="1x icons/1x/github.png, 2x icons/2x/github@2x.png"
+                            alt="GitHub">
+                        anor4k</a></li>
+                <li><a href="https://www.linkedin.com/in/noeleliezer/">
+                        <img src="icons/1x/linkedin.png" srcset="1x icons/1x/linkedin.png, 2x icons/2x/linkedin@2x.png"
+                            alt="Linkedin">
+                        noeleliezer</a></li>
+            </ol>
+        </div>
+    </div>
+    <div class="content">
+        <h1>Experience</h1>
+        <h2>Grupo Turing</h2>
+        <div class="row">
+            <h3>Machine Learning Researcher</h3>
+            <h4>September 2019 – Today</h4>
+            <div class="row">
+                <ul>
+                    <li>Development and publishing of <b>turingquant</b>, an open-source Python library for
+                        financial data collection, analysis, visualization and benchmarking.</li>
+                    <li>Implementation of a Time Series Momentum trading algorithm, based on a paper from Tobias J.
+                        Moskowitz and others.</li>
+                    <li>Data scraping and processing for training an object detection model for Pokémon with YOLO.
+                        (ongoing)</li>
+                </ul>
+            </div>
+            <h3>Human Resources Director</h3>
+            <h4>March 2020 – Today</h4>
+            <div class="row">
+                <ul>
+                    <li>Creation, planning and execution of a Trainee program for new members,
+                        which resulted in zero turnover rate during the first half of 2020.</li>
+                    <li>Collection of members' data for determining a recruitment strategy,
+                        aiming to increase diversity in the group.</li>
+                    <li>Individual interviews with all members as to understand their views on the organization
+                        and refine our strategy and communication.</li>
+                </ul>
+            </div>
+        </div>
+        <h2>Shasta</h2>
+        <div class="row">
+            <ul>
+                <li>Planning and consulting on the development of Shasta Library, a mobile web app for corporative
+                    podcasts, deciding on web framework, customer value proposition and key aspects for delivery of an MVP.
+                    The app is currently on a trial run at Magazine Luiza, the largest retail company in Brazil.</li>
+                <li>Development and deployment of an institutional website based on Perch, a small and modular PHP CMS.</li>
             </ul>
         </div>
-    </div>
-    <div class="bodyContainer">
-        <!-- Educação -->
-        <div class="sectionTitle">Formação</div>
-        <div class="sectionContent">
-            <div class="sectionSmallColumn">
-                <span class="sectionYears">2019 - 2022</span>
-            </div>
-            <div class="sectionMainColumn">
-                <p><b>Bacharelado em Administração</b> - Faculdade de Economia, Administração e Contabilidade da
-                    Universidade de São Paulo</p>
-            </div>
-        </div>
-        <div class="sectionContent">
-            <div class="sectionSmallColumn">
-                <span class="sectionYears">2016 - 2018</span>
-            </div>
-            <div class="sectionMainColumn">
-                <p><b>Engenharia de Computação</b> - Escola Politécnica da Universidade de São Paulo (incompleto)</p>
-            </div>
-        </div>
-        <!-- Experiências -->
-        <div class="sectionTitle">Experiências</div>
-        <div class="sectionContent">
-            <div class="sectionSmallColumn">
-                <span class="sectionCompany">Grupo Turing</span>
-                <br>
-                <span class="sectionYears">2019 - Presente</span>
-            </div>
-            <div class="sectionMainColumn">
-                <p>Diretor da área de Recursos Humanos, liderando esforços de integração de novos membros à distância, people analytics, gerindo a atividade e organização dos membros e mediando conflitos.</p>
-                <p>Membro da área de Finanças Quantitativas, desenvolvendo ferramentas de coleta, limpeza e visualização de dados, estudando métodos avançados de construção de portifólio, e desenvolvendo estratégias de investimento.</p>
-                <p>Membro da área de Visão Computacional, estudando redes neurais aplicadas à análise e classificação de imagens.</p>
-                <p>Membro da área de Comunidade, colaborando na estruturação de eventos sobre IA e ML para a comunidade acadêmica da USP e região.</p>
-            </div>
-        </div>
-        <div class="sectionContent">
-            <div class="sectionSmallColumn">
-                <span class="sectionCompany">PACE - USP</span>
-                <br>
-                <span class="sectionYears">2016 - 2017</span>
-            </div>
-            <div class="sectionMainColumn">
-                <p>Colaboração na concepção de um aplicativo Android e desenvolvimento de um website com Wordpress para
-                    o projeto OPAL, arquitetando um serviço de aluguel de automóveis elétricos compartilhados</p>
-                <p>Participação na criação do conceito e do produto para o projeto PUMA, uma solução de mobilidade
-                    urbana portátil para idosos</p>
-            </div>
-        </div>
-        <div class="sectionContent">
-            <div class="sectionSmallColumn">
-                <span class="sectionCompany">Solid State Radio</span>
-                <br>
-                <span class="sectionYears">2014 - 2017</span>
-            </div>
-            <div class="sectionMainColumn">
-                <p>Participação na criação da Solid State Radio, uma web rádio colaborativa e aberta, atuando no
-                    desenvolvimento e gerenciamento do website em Wordpress, e organização da programação e
-                    funcionamento do backend</p>
-            </div>
-        </div>
-        <!-- Perfil -->
-        <!-- <div class="sectionTitle">Perfil</div>
-        <div class="sectionContent">
-            <div class="sectionSmallColumn"></div>
-            <div class="sectionMainColumn">
-                <p>Grande interesse na utilização de tecnologias de Machine Learning e Data Science aplicadas ao Mercado Financeiro.</p>
-                <p>Rápido ritmo de aprendizagem, auto-didata e flexível.</p>
-                <p>Experiências de trabalho em equipe, com comunicação clara, objetiva e pontual</p>
-            </div>
-        </div> -->
-        <!-- Habilidades -->
-        <div class="sectionTitle">Habilidades</div>
-        <div class="sectionContent">
-            <div class="sectionSmallColumn"></div>
-            <div class="sectionMainColumn">
-                <p>Inglês: Proficiente (Cambridge Certificate of Proficiency in English)</p>
-                <p>Japonês: Básico</p>
-                <p>Python: Avançado (numpy, pandas, plotly, pytorch, openCV)</p>
-                <p>R: Básico</p>
-                <p>Dev Ops: Intermediário (AWS e GCP: VPS, Docker, AWS lambda, automação com bash e python)</p>
-                <p>Microsoft Excel: Avançado (Macros, funções customizadas, automação em geral)</p>
-                <p>HTML 5, CSS e Javascript: Avançado</p>
-                <p>PHP: Intermediário</p>
+        <h2>Solid State Radio</h2>
+        <div class="row">
+            <h4>September 2014 – October 2017</h4>
+            <div class="row">
+                <ul>
+                    <li>Co-creation and collaboration as part of Solid State Radio, a collaborative web radio plataform
+                        targeting the alternative music scene of São Paulo.</li>
+                    <li>Responsible for social media advertising and backend management, broadcasting over 450 radio
+                        programs over 3 years, reaching thousands of people and over 150 simultaneous listeners.</li>
+                </ul>
             </div>
         </div>
     </div>
+
 </body>
 
 </html>
