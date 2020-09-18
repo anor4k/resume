@@ -33,7 +33,7 @@ body {
 }
 
 body {
-    font-family: 'Iosevka Sparkle', Helvetica, sans-serif;
+    font-family: 'Iosevka Sparkle Web', 'Iosevka Sparkle', 'Roboto', Helvetica, sans-serif;
     font-size: 14px;
     margin: 0 auto;
     color: var(--body-text);
