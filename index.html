@@ -15,21 +15,29 @@
     </div>
     <div class="sidebar">
         <div class="sidebar-section">
+            <h1>Educação</h1>
+            <h2>Universidade de São Paulo</h2>
+            <div class="row">
+                <ol>
+                    <li>
+                        <l class="experience-date">2019–2022</l> Bacharelado em Administração (em andamento)
+                    </li>
+                    <li>
+                        <l class="experience-date">2016–2018</l> Bacharelado em Engenharia da Computação (incompleto)
+                    </li>
+                </ol>
+            </div>
             <h1>Habilidades</h1>
             <ul>
-                <li><b>Python, numpy, pandas, plotly</b> e outras bibliotecas para coleta, limpeza, visualização,
-                    manipulação e análise de dados.</li>
-                <li><b>PyTorch</b> e <b>SKLearn</b> para desenvolvimento, treinamento e teste de modelos de Aprendizado
-                    de Máquina.
-                </li>
-                <li><b>AWS</b> e <b>Google Cloud</b> para implementação e distribuição de modelos e software em
-                    arquiteturas gerenciadas e serverless.</li>
-                <li><b>Git</b> e <b>GitHub</b> avançados para colaboração em projetos de pequena a larga escala.</li>
-                <li><b>Linux, bash</b> e <b>Docker</b> para automação e distribuição em containers.</li>
-                <li><b>Microsoft Excel</b> e <b>Google Sheets</b> avançados.</li>
-                <li><b>HTML5, CSS, JS, PHP</b> e <b>React</b> para desenvolvimento de front e back-end web.</li>
+                <li><b>Python</b>, <b>Numpy</b>, <b>Pandas</b>, <b>Plotly</b>, <b>PySpark</b> e outras bibliotecas para ETL de dados.</li>
+                <li><b>Folium</b>, <b>Shapely</b> e <b>GeoPandas</b> para análise de dados geográficos</li>
+                <li><b>PyTorch</b> e <b>SKLearn</b> para desenvolvimento, treinamento e teste de modelos.</li>
+                <li><b>AWS</b> em arquiteturas gerenciadas e serverless (Lambda, EC2, S3, API Gateway, DynamoDB, ECR).</li>
+                <li><b>Git</b> e <b>GitHub</b> avançados, com integração de CI/CD.</li>
+                <li><b>Linux</b>, <b>bash</b>, <b>Airflow</b> e <b>Docker</b> para automação e deploy.</li>
+                <li><b>Microsoft Excel</b>, <b>Google Sheets</b> e <b>Google Data Studio</b>.</li>
+                <li><b>HTML5</b>, <b>CSS</b>, <b>JS</b>, <b>PHP</b> e <b>React</b> para desenvolvimento de front e back-end web.</li>
                 <li><b>Agile</b> e <b>SCRUM</b> para gestão de projetos e equipes.</li>
-                <li>Experiência com gestão de pessoas, liderança de equipes e resolução de conflitos.</li>
             </ul>
             <h1>Idiomas</h1>
             <ol>
@@ -45,7 +53,7 @@
                 <li><a href="mailto:noel@anorak.dev" target="_blank">
                         <img src="icons/1x/mail.png" srcset="icons/1x/mail.png 1x, icons/2x/mail@2x.png 2x" alt="Email">
                         noel@anorak.dev</a></li>
-                <li><a href="https://anorak.dev" target="_blank">
+                <li><a href="https://anorak.dev/resume" target="_blank">
                         <img src="icons/1x/home.png" srcset="icons/1x/home.png 1x, icons/2x/home@2x.png 2x"
                             alt="Home Page">
                         anorak.dev</a></li>
@@ -61,19 +69,20 @@
         </div>
     </div>
     <div class="content">
-        <h1>Educação</h1>
-        <h2>Universidade de São Paulo</h2>
-        <div class="row">
-            <ol>
-                <li>
-                    <l class="experience-date">2019 – 2022</l> Bacharelado em Administração (em andamento)
-                </li>
-                <li>
-                    <l class="experience-date">2016 – 2018</l> Bacharelado em Engenharia da Computação (incompleto)
-                </li>
-            </ol>
-        </div>
         <h1>Experiência</h1>
+        <h2>Magazine Luiza <l class="experience-date">2020/12 - Presente</l>
+        </h2>
+        <div class="row">
+            <h3>Cientista de Dados Estagiário — Abastecimento de Lojas</h3>
+            <ul>
+                <li>Identificação de oportunidades e implementação de melhorias contínuas na ferramenta dinâmica de abastecimento
+                    através de análises exploratórias e backtesting, entendendo as necessidades das equipes de operações.</li>
+                <li>Desenvolvimento de um modelo de hierarquia para Ship from Store, otimizando a distribuição do sortimento
+                    em função das características das lojas. Atualmente em piloto.</li>
+                <li>Criação e manutenção de dashboards para acompanhamento de indicadores e ofensores chave para a multicanalidade,
+                    processando dados do Data Lake com Airflow e Pyspark para uso no Big Query e Data Studio.</li>
+            </ul>
+        </div>
         <h2>Grupo Turing <l class="experience-date">2019/09 – Presente</l>
         </h2>
         <div class="row">
@@ -81,31 +90,27 @@
                 <li>Desenvolvimento e publicação da biblioteca <i>turingquant</i>, um pacote Python de código aberto
                     para coleta, análise, visualização e teste de dados e modelos financeiros.</li>
                 <li>Implementação do algoritmo de Time Series Momentum como estratégia quantitativa de negociação de
-                    ativos,
-                    baseado no artigo de Tobias J. Moskowitz e outros.</li>
-                <li>Coleta e processamento de dados para o treinamento de um modelo de detecção de Pokémons utilizando
-                    YOLO. <l>(em andamento)</l></li>
+                    ativos, baseado no <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2089463">artigo de Moskowitz, Ooi e Pedersen</a>.</li>
+                <li>Deploy de um Chatbot integrado com a API do Facebook no ambiente AWS, utilizando Lambda, API Gateway, DynamoDB e Docker.</li>
+                <li>Coleta e processamento de dados para o treinamento de um modelo de detecção de imagens utilizando YOLO,
+                    e deployment em AWS com Lambda, S3 e API Gateway.</li>
             </ul>
-            <h3>Diretor de Recursos Humanos <l class="experience-date">2020/03 – Presente</l>
+            <h3>Diretor de Recursos Humanos <l class="experience-date">2020/03 – 2021/03</l>
             </h3>
             <ul>
-                <li>Criação, planejamento e execução de um programa de Trainees para novos mebros, 
-                    resultando em 100% de retenção dos membros em 2020.</li>
+                <li>Planejamento e execução de dois processos seletivos, com mais de 300 e 450 inscritos, respectivamente.</li>
+                <li>Criação, planejamento e execução de um programa de Trainees para novos membros.</li>
                 <li>Coleta e análise de dados dos membros do grupo para determinar uma estratégia de recrutamento,
                     buscando aumentar a diversidade no grupo.</li>
-                <li>Entrevistas individuais com todos os membros para entender suas perspectivas sobre o grupo e
-                    redefinir a estratégia e comunicação internas.</li>
             </ul>
         </div>
         <h2>Shasta</h2>
         <div class="row">
             <ul>
-                <li>Planejamento e consultoria no desenvolvimento da Shasta Library, um web app mobile para comunicação
-                    e podcasts corporativos, responsável pela decisão do framework de desenvolvimento, proposta de valor e
-                    aspectos chave para entrega de um MVP em 2 meses.
-                    O app está atualmente em uma implementação piloto na Magazine Luiza.</li>
-                <li>Desenvolvimento e publicação de um website institucional baseado em Perch, um CMS modular baseado em PHP.
-                </li>
+                <li>Planejamento da Shasta Library, um web app mobile para comunicação e podcasts corporativos,
+                    responsável pela decisão do framework de desenvolvimento, proposta de valor e
+                    aspectos chave para entrega de um MVP.</li>
+                    <li>Implementado no Magazine Luiza em Maio de 2021, e atualmente com mais de 1200 usuários.</li>
             </ul>
         </div>
         <h2>Solid State Radio <l class="experience-date">2014/09 – 2017/10</l>
@@ -114,8 +119,9 @@
             <ul>
                 <li>Co-fundação e colaboração como parte da Solid State Radio, uma webrádio colaborativa voltada à
                     cena musical alternativa da cidade de São Paulo.</li>
-                <li>Responsável pela divulgação em mídias sociais e gestão dos sistemas, transmitindo mais de 450 programas
-                    em 3 anos, alcançando milhares de pessoas e mais de 150 ouvintes simultâneos.</li>
+                <li>Responsável pela divulgação em mídias sociais e gestão dos sistemas,
+                    transmitindo mais de 450 programas em 3 anos, alcançando milhares de pessoas 
+                    e mais de 150 ouvintes simultâneos.</li>
             </ul>
         </div>
     </div>
