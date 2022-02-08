@@ -73,6 +73,7 @@ l {
     color: var(--body-text);
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .sidebar {
@@ -85,6 +86,17 @@ l {
 
 .header-name {
     margin-left: 1rem;
+}
+
+.header-language {
+    font-size: 0.4em;
+    margin-right: 1rem;
+}
+
+@media print {
+    .header-language {
+        display: none;
+    }
 }
 
 .sidebar, .content {
