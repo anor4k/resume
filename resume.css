@@ -3,11 +3,10 @@ body {
     display: grid;
     max-width: 1080px;
     grid-template-rows: 68px auto;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 2fr 4fr;
     grid-template-areas:
     "header header"
-    "sidebar content"
-    ; 
+    "sidebar content";
 }
 
 .header {
@@ -151,14 +150,13 @@ h6 {
         grid-template-areas:
         "header"
         "content"
-        "sidebar"
-        ; 
+        "sidebar";
     }
 
     .header {
         font-size: 2.5em;
     }
-    
+
 }
 
 @media screen and (max-width: 420px) {
@@ -176,9 +174,9 @@ h6 {
 }
 
 @media print {
-    body{
+    body {
         width: 21cm;
         height: 29.7cm;
         margin: 0;
-   } 
+    }
 }
