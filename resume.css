@@ -5,8 +5,8 @@ body {
     grid-template-rows: 68px auto;
     grid-template-columns: 2fr 4fr;
     grid-template-areas:
-    "header header"
-    "sidebar content";
+        "header header"
+        "sidebar content";
 }
 
 .header {
@@ -39,7 +39,8 @@ body {
     min-height: 100vh;
 }
 
-ul, ol {
+ul,
+ol {
     list-style: disc;
     margin: 0;
     padding-left: 1em;
@@ -98,11 +99,17 @@ l {
     }
 }
 
-.sidebar, .content {
+.sidebar,
+.content {
     padding: 0 1em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0.25em 0 0.25em 0;
 }
 
@@ -148,9 +155,9 @@ h6 {
         grid-template-rows: 80px auto;
         grid-template-columns: 1fr;
         grid-template-areas:
-        "header"
-        "content"
-        "sidebar";
+            "header"
+            "content"
+            "sidebar";
     }
 
     .header {
